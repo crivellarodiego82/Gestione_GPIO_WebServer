@@ -1,1 +1,7 @@
 # Gestione_GPIO_WebServer
+
+Il General Purpose Input/Output (anche noto come GPIO) è un'interfaccia disponibile su alcuni dispositivi elettronici. Un dispositivo microprocessore, microcontroller o interfaccia può avere una o più connessioni GPIO su un'interfaccia con dispositivi e periferiche esterne. Queste possono agire come input, per leggere i segnali digitali dalle altre parti del circuito, o output, per controllare o segnalare agli altri dispositivi. GPIO sono spesso collocati in gruppi, tipicamente di 8 pin - una porta GPIO - che usualmente hanno GPIO individuali configurabili o come input o come output. In alcuni casi, GPIO possono essere configurati per produrre degli CPU interrupt ed essere in grado di utilizzare il Direct Memory Access per spostare efficientemente grandi quantità di dati per e dal dispositivo.
+
+Le periferiche GPIO variano in misura piuttosto ampia. In alcuni casi, sono molto semplici, un gruppo di pin può essere commutato come gruppo di input o di output. In altri, ogni pin può essere impostato in modo flessibile per accettare o leggere livelli logici differenti, con unità di forza configurabili e pull up/down. Le tensioni di input e output sono tipiche, sebbene non universalmente limitati dalla tensione di alimentazione del dispositivo che include il GPIO, e può essere danneggiato da tensioni più elevate.
+
+Alcuni GPIO hanno ingressi con una tolleranza ai 5V - anche su basse tensioni di alimentazioni (2V), il dispositivo può accettare 5V senza essere danneggiato.
