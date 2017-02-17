@@ -1,4 +1,4 @@
-# Gestione_GPIO_WebServer
+# Gestione_GPIO_WebServer con Flask
 
 Il General Purpose Input/Output (anche noto come GPIO) è un'interfaccia disponibile su alcuni dispositivi elettronici. Un dispositivo microprocessore, microcontroller o interfaccia può avere una o più connessioni GPIO su un'interfaccia con dispositivi e periferiche esterne. Queste possono agire come input, per leggere i segnali digitali dalle altre parti del circuito, o output, per controllare o segnalare agli altri dispositivi. GPIO sono spesso collocati in gruppi, tipicamente di 8 pin - una porta GPIO - che usualmente hanno GPIO individuali configurabili o come input o come output. In alcuni casi, GPIO possono essere configurati per produrre degli CPU interrupt ed essere in grado di utilizzare il Direct Memory Access per spostare efficientemente grandi quantità di dati per e dal dispositivo.
 
