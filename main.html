@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+   <title>Pin</title>
+
+   <link rel="stylesheet" href="http://10.0.2.30/gpio/bootstrap-theme.min.css" >
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="http://10.0.2.30/gpio/bootstrap-theme.min.css" >
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="http://10.0.2.30/gpio/bootstrap.min.js" ></script>
+
+</head>
+
+<body>
+
+ {% for pin in pins %}
+ {{ pins[pin].name }}
+   {% if pins[pin].state == true %}
+      &egrave <strong>attivo</strong><div class="row"><div class="col-md-2">
+      <a href="/{{pin}}/off" class="btn btn-block btn-lg btn-default" role="button">Disattiva</a></div></div>
+   {% else %}
+      &egrave <strong>spento</strong><div class="row"><div class="col-md-2">
+      <a href="/{{pin}}/on" class="btn btn-block btn-lg btn-primary" role="button">Attiva</a></div></div>
+   {% endif %}
+   {% endfor %}
+</body>
+</html>
